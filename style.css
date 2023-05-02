@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/ttf/Lato-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/ttf/Lato-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+/* GLOBAL */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ENCABEZADO */
+.header {
+    background-color: #0f172a;
+    padding: 30px 20px;
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container h3 a {
+    color: #22c55e;
+}
+
+.header__container-navbar {
+    display: flex;
+}
+
+.header__container-navbar li {
+    margin: 0 15px;
+}
+
+.header__container-navbar li a {
+    color: #e2e8f0;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background-color: #14532d;
+    padding: 60px 20px;
+    color: #e2e8f0;
+}
+
+.hero__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
